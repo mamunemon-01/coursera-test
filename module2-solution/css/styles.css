@@ -1,0 +1,20 @@
+#page-title {
+	text-align: center;
+}
+section {
+	background-color: gray;
+}
+#padma span {
+	background-color: #ff1385;
+}
+#meghna span {
+	background-color: #87adf8;
+}
+#jamuna span {
+	background-color: #9833df;
+}
+span .name {
+	border-width: 1px;
+	border-color: black;
+	margin: 20px 0 20px 0;
+}
