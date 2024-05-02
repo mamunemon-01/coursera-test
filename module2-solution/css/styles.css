@@ -1,20 +1,82 @@
+* {
+	box-sizing: border-box;
+	font-family: helvetica;
+}
 #page-title {
 	text-align: center;
 }
 section {
 	background-color: gray;
+	border: 1px solid black;
+	margin: 10px;
+	float: right;
+	overflow: hidden;
 }
-#padma span {
+span {
+	display: inline-block;
+	margin: 10px 30px 10px 30px;
+	font-weight: bold;
+}
+.name {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	float: right;
+}
+#padma .name {
 	background-color: #ff1385;
 }
-#meghna span {
+#meghna .name {
 	background-color: #87adf8;
 }
-#jamuna span {
+#jamuna .name {
 	background-color: #9833df;
 }
-span .name {
-	border-width: 1px;
-	border-color: black;
-	margin: 20px 0 20px 0;
+p {
+	margin: 50px 10px 10px 10px;
+}
+@media (min-width: 1337px) {
+	.col-lg-4 {
+		width: 31.82%;
+	}
+}
+@media (min-width: 1169px) and (max-width: 1336px) {
+	.col-lg-4 {
+		width: 31.6%;
+	}
+}
+@media (min-width: 1050px) and (max-width: 1168px) {
+	.col-lg-4 {
+		width: 31.4%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1049px) {
+	.col-lg-4 {
+		width: 31.2%;
+	}
+}
+@media (min-width: 816px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 47.5%;
+	}
+	.col-md-12 {
+		width: 97.5%;
+	}
+}
+@media (min-width: 768px) and (max-width: 815px) {
+	.col-md-6 {
+		width: 47%;
+	}
+	.col-md-12 {
+		width: 97%;
+	}
+}
+@media (max-width: 767px) {
+	.col-sm-12 {
+		width: 96.5%;
+	}
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 }
